@@ -1,0 +1,107 @@
+
+body{
+    background-image: url(assets/wallpaper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+
+.imgWallpaper{
+    width: 81%;
+    margin: -10px;
+}
+
+.login{
+    align-items: center;
+    background-color: aqua;
+}
+
+.imgLogoRiot{
+    width: 12rem;
+}
+
+.pagLogin{
+    align-items: center;
+    background-color: #ffffff;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 1, 0, 1);
+    
+}
+
+.dadosUser{
+    margin: 0.5rem;
+    width: 18rem;
+}
+
+.btnEntrar{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.BtnLoginRedesSociaisFace, .BtnLoginRedesSociaisGoogle, .BtnLoginRedesSociaisApple, .BtnLoginRedesSociaisXbox{
+    background-size: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.3rem;
+    margin: 0.3rem;
+}
+
+.BtnLoginRedesSociaisFace{
+    background-image: url(assets/logoFace.png);
+    background-color: #006afd;
+    
+}
+
+.BtnLoginRedesSociaisGoogle{
+    background-image: url(assets/logoGoogle.png);
+    background-color: #ffffff;
+}
+
+.BtnLoginRedesSociaisApple{
+    background-image: url(assets/logoApple.png);
+    background-size: 1.2rem;
+    background-color: black;
+}
+
+.BtnLoginRedesSociaisXbox{
+    background-image: url(assets/logoXbox.png);
+    background-color: #077D07;
+}
+
+.manterConectado{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: black;
+    text-decoration: none;
+    margin: 0.3rem;
+}
+
+.CriarConta{
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif; 
+}
